@@ -1,5 +1,6 @@
 <template>
   <div class="login-container">
+    <!--
     <div class="login-info">
       <div class="title">{{ $t('common.system') }}</div>
       <div class="sub-title">{{ $t('common.systemIntroduce') }}</div>
@@ -9,6 +10,7 @@
       <div class="desc">4. {{ $t('common.desc.d') }}</div>
       <div class="desc">5. {{ $t('common.desc.e') }}</div>
     </div>
+    -->
     <el-form ref="loginForm" :model="loginForm" :rules="rules" class="login-form" autocomplete="off" label-position="left">
       <div class="title-container">
         <h3 class="title">

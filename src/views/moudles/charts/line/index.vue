@@ -20,7 +20,7 @@ export default {
     this.initChartSettings()
   },
   methods: {
-    /*initChartSettings() {
+    /* initChartSettings() {
       this.$get(`charts/line/view/${this.user.username}`).then((res) => {
         this.chartData = res.data.data
       }
